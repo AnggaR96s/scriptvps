@@ -306,13 +306,6 @@ cat > /etc/xray/config.json << END
         "outboundTag": "api",
         "type": "field"
       },
-      {
-        "type": "field",
-        "outboundTag": "blocked",
-        "protocol": [
-          "bittorrent"
-        ]
-      }
     ]
   },
   "stats": {},
